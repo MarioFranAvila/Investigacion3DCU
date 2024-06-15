@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+}
+
+
+/*Header*/
+header{
+    background-color: rgb(25, 1, 88);
+    margin: 0;
+    padding-top: 25px;;
+    padding-bottom: 25px;
+    position: relative;
+    overflow: auto; 
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header h1{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: white;
+   
+}
+
+.titulo{
+    padding-left: 2em;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header li{
+    display: inline;
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    padding-right: 30px;
+    transition: font-size 500ms ease;
+  
+}
+
+header ul{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+
+.Opciones{
+    font-size: 20px;
+    margin-left: auto;
+}
+
+header li :hover
+{
+    color: rgba(2, 167, 147, 0.932);
+    font-size: 25px;
+    transition: font-size 500ms ease;
+    
+}
+/*End Header*/
+
+/*inicio*/
+.concept h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.concept p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    width: 75%;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 3em;
+}
+
+.video h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 25px;
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/*end inicio*/
+
+
+/*Etapas*/
+.encabezado{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: 30px;
+    margin-top: 2em;
+}
+
+.etapas{
+    text-align: center;
+    margin-top: 4em;
+}
+
+.etapas h2{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 30px;
+}
+
+.etapas p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.contenido p{
+    width: 75%;
+    text-align: justify;
+    margin: auto;
+}
+
+/*End etapas*/
+
+/*Beneficios*/
+    h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .beneficios ul{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    }
+
+    .beneficios li{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-bottom: 1em;
+        font-size: 18px;
+    }
+
+    #boldText{
+        font-weight: bold;
+    }
+
+/*End beneficios*/
+
+/*Ejemplos*/
+
+.opciones h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px; 
+    text-align: center;
+    color: rgb(5, 5, 155);
+
+}
+
+.opciones h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px; 
+    text-align: center;
+}
+
+.opciones{
+    position: relative;
+}
+
+.imagen{
+    display: flex;
+   justify-content: center;
+   margin: 3em auto 3em;
+}
+
+
+/*End Ejemplos*/
+
+.opciones .contenido p{
+    width: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: auto;
+}
+
+main{
+    margin-bottom: 5em;
+}
+
+/*Referencias*/
+thead{
+    background-color: #040b4e;
+    color: white;
+    font-size: 23px;
+
+  }
+  
+  
+  
+  table tbody tr:nth-child(even){ /*even - odd */
+    background-color: #c6c6c6;
+  }
+  
+  td a{
+    color: black;
+  }
+  
+  tr {
+    height: 40px; 
+  }
+
+
+.Tabla{
+   display: flex;
+   justify-content: center;
+   margin-top: 45px;
+   margin-bottom: 10%;
+}
+/*End Referencias*/
+
+/*Footer*/
+footer{
+    background-color: rgb(17, 15, 15);
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+    }
+    
+    footer p{
+        font-size: 15px;
+    }
+
+    /*End footer*/
